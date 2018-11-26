@@ -44,13 +44,13 @@ if __name__ == "__main__":
         os.mkdir(DataUtils.get_results_directory_name())
 
     # Run value iteration on the first problem.
-    #run_value_iteration_on_problem_one()
+    run_value_iteration_on_problem_one()
 
     # Run policy iteration on the first problem.
     #run_policy_iteration_on_problem_one()
 
     # Run q learning on the first problem.
-    run_q_learning_on_problem_one()
+    #run_q_learning_on_problem_one()
 
     # Register the custom jumbo lake environment with open ai gym.
     gym.envs.registration.register(
@@ -59,10 +59,10 @@ if __name__ == "__main__":
     )
 
     # Run value iteration on the second problem.
-    #run_value_iteration_on_problem_two()
+    run_value_iteration_on_problem_two()
 
     # Run policy iteration on the second problem.
     #run_policy_iteration_on_problem_two()
 
     # Run q learning on the second problem.
-    run_q_learning_on_problem_two()
+    #run_q_learning_on_problem_two()
